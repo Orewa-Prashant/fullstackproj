@@ -1,0 +1,240 @@
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="website-header">
+				<img src="logo.png">
+				<h1>SPORTSPEDIA</h1>
+				<div class="social-icons">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-google-plus-g"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fas fa-rss"></i>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-md ">
+  <!-- Brand -->
+  
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FOOTBALL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CRICKET</a>
+      </li> 
+		<li class="nav-item">
+        <a class="nav-link" href="#">BASKETBALL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">F1 RACE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">TENNIS</a>
+      </li> 
+		<li class="nav-item">
+        <a class="nav-link" href="#">BADMINTON</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">WRESTLING</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">VIDEOS</a> -->
+      </li> 
+    </ul>
+  </div> 
+			</nav>
+			<div class="breaking-news-section">
+				<span id="btext">Breaking News</span>
+				<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+					<a href="https://www.skysports.com/football/west-ham-united-vs-liverpool/report/446397" target="_self" class="breaking-news">
+						<p class="bntime">09 NOV 2021</p>
+						WEST HAM BREAKS LIVERPOOL'S 11 MATCH STREAK</a>
+					<a href="https://sports.ndtv.com/icc-t20-world-cup-2021/1st-semifinal-eng-vs-nz-england-vs-new-zealand-when-and-where-to-watch-upcoming-match-live-telecast-live-streaming-2605278" target="_self" class="breaking-news"><p class="bntime">10 Nov 2021</p>England puts up 166-4 after 20 overs</a>
+					<a href="https://www.espn.in/nba/story/_/id/32592148/jalen-green-young-houston-rockets-classes-john-lucas-university" target="_self" class="breaking-news"><p class="bntime">10 Nov 2021</p>Jalen Green, the young Houston Rockets and classes at 'John Lucas University'</a>
+				</marquee>
+			</div>
+		</header>
+		<main>
+			<article id="popular-news">
+				<div id="featured">
+					<h2>FEATURED</h2>
+					<section class="popular-news-carousel">
+						<div id="carousel" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner">
+							<div class="carousel-item active">
+							  <img class="d-block w-100" src="images/Ronaldo.jpg" alt="First slide">
+								<div class="carousel-caption d-none d-md-block">
+									<a href="https://timesofindia.indiatimes.com/sports/football/epl/top-stories/manchester-united-lean-on-cristiano-ronaldo-to-prove-manchester-citys-missed-opportunity/articleshow/87533962.cms" target="_self"><p>Manchester United lean on Cristiano Ronaldo to prove Manchester City's missed opportunity.</p></a>
+									<p>09th Nov 2021</p>
+								 </div>
+							</div>
+							<div class="carousel-item">
+							  <img class="d-block w-100" src="images/indvsnz.webp" alt="Second slide">
+								<div class="carousel-caption d-none d-md-block">
+									<a href="https://sports.ndtv.com/cricket/fans-with-at-least-one-covid-vaccine-dose-allowed-for-india-new-zealand-t20-match-in-jaipur-2605667" target="_self">Fans With At Least One Covid Vaccine Dose Allowed For India, New Zealand T20 Match In Jaipur. </a>
+									<p>10th Nov 2021</p>
+								 </div>
+							</div>
+							<div class="carousel-item">
+							  <img class="d-block w-100" src="images/Tennis.jpg" alt="Third slide">
+								<div class="carousel-caption d-none d-md-block">
+									<a href="https://www.outlookindia.com/website/story/sports-news-stockholm-open-andy-murray-beat-viktor-durasovic-sets-up-match-vs-jannik-sinner/400374/" target="_self">Stockholm Tennis Open: Andy Murray Beat Viktor Durasovic, Sets Up Match Vs Jannik Sinner  </a>
+									<p>09th Nov 2021</p>
+								 </div>
+							</div>
+						  </div>
+						  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</section>
+					
+				</div>
+				<div id="latest">
+					<h2>LATEST</h2>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/fuk.jpg">
+							<a href="https://www.espncricinfo.com/story/t20-world-cup-aus-vs-pak-2nd-semi-final-fakhar-zaman-out-of-form-batting-coach-matthew-hayden-doesn-t-think-so-1288577" target="_self"><p class="carousel-text">Fakhar out of form.</p></a>				
+						</div>						
+					</section>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/ole.jpg">
+							<a href="https://www.bbc.com/sport/football/58990549" target="_self"><p class="carousel-text">Is Ole Gunnar Solskjaer on the brink of the sack?</p></a>
+						</div>						
+					</section>
+				</div>
+				<div id="our-picks">
+					<h2>OUR PICKS</h2>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/bad.jpg">
+							<a href="https://sports.ndtv.com/badminton/lakshya-sen-kidambi-srikanth-enter-semifinals-of-hylo-open-2601047" target="_self"><p class="carousel-text">Lakshya Sen, Kidambi Srikanth Enter Semifinals Of Hylo Open</p></a>		
+						</div>						
+					</section>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/f1.jpg">
+							<a href="https://www.formula1.com/en/latest/article.how-much-higher-can-lewis-hamilton-raise-his-game-2020.54IHM5gmQHBaPrkrRcMN8f.html" target="_self"><p class="carousel-text">How much longer can Lewis Hamilton stay on top?</p>		</a>		
+						</div>						
+					</section>
+				</div>
+			</article>
+			<section class="more-news">
+				<div class="news-section">
+					<article class="world">
+						<h2>NBA</h2>
+						<img src="images/nba.webp">
+						<h3>NBA Draft Notebook: Duke's Paolo Banchero Strengthens Case for No. 1 Pick</h3>
+						<a href="https://www.si.com/nba/2021/11/10/nba-draft-notebook-paolo-banchero-duke-champions-classic" target="_self"><p>NEW YORK—The Champions Classic serves as an annual benchmark on the scouting calendar, with NBA executives convening at Madison Square Garden to assess the talent level of four storied college programs ahead of the 2022 draft. This year, a matchup between Duke and Kentucky was the primary draw, with Michigan State and Kansas facing off beforehand as an appetizer. […]</p></a>
+					</article>
+					<article class="sport">
+						<h2>SPORT</h2>
+						<img src="images/maxresdefault (1).jpg">
+						<h3>Jerseys, baseball bats, other possessions of the man behind ice bucket</h3>
+						<a href="https://economictimes.indiatimes.com/magazines/panache/jerseys-baseball-bats-other-possessions-of-the-man-behind-ice-bucket-challenge-up-for-online-sale/articleshow/87534767.cms" target="_self"><p>BOSTON: Jerseys, baseball bats and other items that belonged to Pete Frates, the former college baseball player whose inspiring fight with Lou Gehrig's disease helped popularise the ALS ice bucket challenge, are being auctioned. […]</p></a>
+					</article>
+				</div>
+				
+				<aside>
+					<h4>RECENT</h4>
+					<div class="recent-news">
+						<img src="images/article1.jpg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="images/aside2.jpg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="images/aside3.jpg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="images/aside4.jpg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="images/aside5.jpg">
+						<p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+				</aside>
+			</section>
+		</main>
+		<footer>
+			<div class="social-links">
+				<section class="about">
+					<h2>About</h2>
+					<p>Sportspedia is a platform where people can get notified with the latest 
+						updates regarding major sporting events, matches going around the globe. 
+						Updates will include live scores, fixtures, news, results and standings of some 
+						leagues etc. Official statements from different organizations and boards will to 
+						get updated there.</p>
+					<div class="social-icons-footer">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-google-plus-square"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fas fa-rss-square"></i>
+						<i class="fab fa-youtube-square"></i>
+						<i class="fas fa-rss-square"></i>
+						<i class="fab fa-pinterest-square"></i>
+						<i class="fab fa-linkedin"></i>
+					</div>
+				</section>
+				<section class="Instagram">
+					<a href="https://www.instagram.com/_piyush.550_/"target="_self"><h2>Instagram</h2></a>
+					<img src="images/aside2.jpg">
+					<img src="images/aside3.jpg">
+					<img src="images/aside4.jpg">
+					<img src="images/aside5.jpg">
+					<img src="images/aside2.jpg">
+					<img src="images/aside3.jpg">
+					<img src="images/aside4.jpg">
+					<img src="images/aside5.jpg">
+					<img src="images/aside2.jpg">
+					<button type="button" class="footer-buttons">View on Instagram</button>
+				</section>
+				<section class="Subscribe">
+					<h2>Subscribe to News Today</h2>
+					<p>Enter your email address to subscribe to this blog and receive notifications of new posts by email</p>
+					<input type="email" placeholder="Email Address">
+					<button type="button" class="footer-buttons">Subscribe</button>
+				</section>
+			</div>
+			
+			<div class="copyright">Copyright © 2019 News Today. Designed by Code Spot</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
